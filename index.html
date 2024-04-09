@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #un{
+            width: 450px;
+            height: 30px;
+            margin-left: 30px;
+        }
+        #ln{
+            width: 450px;
+            height: 30px;
+            margin-left: 30px;
+        }
+        #ei{
+            width: 450px;
+            height: 30px;
+            margin-left: 30px;
+        }
+        #pa{
+            width: 450px;
+            height: 30px;
+            margin-left: 30px;
+        }
+        #rpa{
+            width: 450px;
+            height: 30px;
+            margin-left: 30px;
+        }
+        #dob{
+            width: 450px;
+            height: 30px;
+            margin-left: 30px;
+        }
+        #ra{
+            margin-left: 50px;
+        }
+        #file{
+            margin-left: 30px;
+            cursor: all-scroll;
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 1000px; width: 700px; background-color: black; border: 1px solid black;">
+         <form action="" method="post" enctype="multipart/form-data" style="height: 900px; width: 600px; border: 2px solid black; background-image: linear-gradient(rgba(204, 101, 101, 0.897), rgba(57, 57, 196, 0.726), rgba(44, 139, 44, 0.733)); margin-top: 50px; margin-left: 50px; border-radius: 40px 0px 0px 40px; box-shadow: 8px 8px 8px white;">
+            <h1 style="text-align: center; text-transform: uppercase; font-size: 30px; font-family: algerian; font-weight: bold; color: darkred; text-shadow: 2px 2px 2px black;">user form</h1>
+            <hr style="width: 85%; height: 3px; background-color: black; margin-left: 40px;"><br>
+            <label for="un" style="margin-left: 30px; font-size: 20px; font-family: algerian; font-weight: bold; text-transform: capitalize;">first name</label><br>
+            <input type="text" id="un" name="firstname" placeholder="Enter first name here...."><br><br>
+            <label for="ln" style="margin-left: 30px; font-size: 20px; font-family: algerian; font-weight: bold; text-transform: capitalize;">last name</label><br>
+            <input type="text" id="ln" name="lastname" placeholder="Enter last name here...."><br><br>
+            <label for="ei" style="margin-left: 30px; font-size: 20px; font-family: algerian; font-weight: bold; text-transform: capitalize;">email id</label><br>
+            <input type="email" id="ei" name="email" placeholder="Enter email id here...."><br><br>
+            <label for="dob" style="margin-left: 30px; font-size: 20px; font-family: algerian; font-weight: bold; text-transform: capitalize;">date of birth</label><br>
+            <input type="date" id="dob" name="date of birth"><br><br>
+            <!-- <fieldset> -->
+                <legend style="margin-left: 30px; font-size: 20px; font-family: algerian; font-weight: bold;">gendar</legend><br>
+                <input type="radio" id="ra" name="gendar" checked>MALE <br>
+                <input type="radio" id="ra" name="gendar">FEMALE <br><br>
+            <!-- </fieldset> -->
+            <label for="file" style="margin-left: 30px; font-size: 20px; font-family: algerian; font-weight: bold; text-transform: capitalize;">upload document</label><br><br>
+            <input type="file" name="file" id="file"><br><br>
+            <label for="pa" style="margin-left: 30px; font-size: 20px; font-family: algerian; font-weight: bold; text-transform: capitalize;">password</label><br>
+            <input type="password" id="pa" name="password" placeholder="Enter your password here...."><br><br>
+            <label for="rpa" style="margin-left: 30px; font-size: 20px; font-family: algerian; font-weight: bold; text-transform: capitalize;">retype password</label><br>
+            <input type="password" id="rpa" name="retypepassword" placeholder="Retype password here...."><br><br><br><br>
+            <button style="width: 450px; height: 30px; background-color: black; color: white; font-size: 20px; font-family: monotype corsiva; text-transform: capitalize; box-shadow: 5px 5px 5px blue; margin-left: 30px;">submmit</button>
+         </form>
+    </div>
+</body>
+</html>
